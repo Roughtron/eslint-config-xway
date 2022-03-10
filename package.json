@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
+    "@vue/cli-plugin-eslint": "^5.0.1",
     "@vue/eslint-config-standard": "^6.1.0",
     "eslint": "^8.10.0",
     "eslint-formatter-pretty": "^4.1.0",
@@ -18,5 +19,10 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
     "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "@vue/cli-plugin-eslint": "^5.0.1"
   }
 }
