@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linter configuration for all XWAY frontend projects ",
   "main": "index.js",
   "scripts": {
